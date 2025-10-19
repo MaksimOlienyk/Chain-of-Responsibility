@@ -1,5 +1,6 @@
 # Chain-of-Responsibility
-```abstract class Handler {
+```cs
+abstract class Handler {
     protected Handler next;
     public void SetNext(Handler h)=>next=h;
     public abstract void Handle(string req);
